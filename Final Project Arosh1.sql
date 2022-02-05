@@ -31,7 +31,7 @@ Drop Table IF Exists Gender
 Create table Gender
 (
 GenderID Int Identity Primary key,
-GenderName VarChar (6)
+GenderName VARCHAR (6)
 )
 Go
 ---------------------------------------------------
